@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { Tecnologia } from '@core';
-import { TecnologiaProvider } from './tecnologia.provider';
+import { TecnologiaProvider } from './tecnologia.prisma';
 
 @Controller('tecnologias')
 export class TecnologiaController {

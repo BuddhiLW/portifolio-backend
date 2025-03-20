@@ -19,4 +19,21 @@ export class ProjetoProvider {
       tipo: projeto.tipo as Tipo
     }));
   }
+
+  async findById(id: number): Promise<Projeto | null> {
+    const projeto = await this.prisma.projeto.findUnique({
+      where: { id },
+      include: { tecnologias: true }
+    });
+
+    if (!projeto) {
+      return null;
+    }
+
+    return {
+      ...projeto,
+      nivel: Object.values(Nivel)[projeto.nivel] as Nivel,
+      tipo: projeto.tipo as Tipo
+    };
+  }
 }

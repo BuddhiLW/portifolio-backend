@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TecnologiaController } from './tecnologia.controller';
-import { TecnologiaProvider } from './tecnologia.provider';
+import { TecnologiaProvider } from './tecnologia.prisma';
 import { DbModule } from 'src/db/db.module';
 
 @Module({
