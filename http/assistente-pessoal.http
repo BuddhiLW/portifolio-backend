@@ -1,0 +1,8 @@
+POST https://blw.app.n8n.cloud/webhook-test/assistente-pessoal 
+Content-Type: application/json
+
+{
+    "chatId": "1234567890",
+    "message": "Olá, como posso ajudar você hoje?"
+}
+
