@@ -1,0 +1,23 @@
+### Get all projects in Portuguese (default)
+GET http://localhost:4000/projetos
+
+### Get all projects in English
+GET http://localhost:4000/projetos?locale=en
+
+### Get project by ID in Portuguese (default)
+GET http://localhost:4000/projetos/1
+
+### Get project by ID in English
+GET http://localhost:4000/projetos/1?locale=en
+
+### Get featured project (Poupig) in Portuguese
+GET http://localhost:4000/projetos/2
+
+### Get featured project (Poupig) in English
+GET http://localhost:4000/projetos/2?locale=en
+
+### Get Clojure project in Portuguese
+GET http://localhost:4000/projetos/22
+
+### Get Clojure project in English
+GET http://localhost:4000/projetos/22?locale=en

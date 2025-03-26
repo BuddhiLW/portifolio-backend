@@ -1,30 +1,50 @@
 id,nome,destaque,descricao,imagem
-1,HTML,false,Linguagem de marcação para estruturação de páginas web.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/html.svg
-2,CSS,false,Linguagem de estilos para definição do design e layout das páginas web.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/css.svg
-3,JavaScript,false,Linguagem de programação para interatividade em páginas web.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/javascript.svg
-4,TypeScript,true,Superset do JavaScript que adiciona tipagem estática.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/typescript.svg
-5,Node.js,true,Ambiente de execução JavaScript no lado do servidor.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/node.svg
-6,Java,true,Linguagem de programação orientada a objetos.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/java.svg
-7,Python,true,Linguagem de programação interpretada de alto nível.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/python.svg
-8,NestJS,true,Framework para construção de aplicações back-end em Node.js.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/nest.svg
-9,Express.js,false,Framework web minimalista para Node.js.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/express.svg
-10,React,true,Biblioteca JavaScript para construção de interfaces de usuário.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/react.svg
-11,Vue.js,false,Framework progressivo para construção de interfaces de usuário.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/vue.svg
-12,Angular,false,Framework front-end desenvolvido pelo Google.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/angular.svg
-13,Svelte,false,Framework para construção de interfaces reativas.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/svelte.svg
-14,PostgreSQL,false,Sistema de gerenciamento de banco de dados relacional avançado.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/postgresql.svg
-15,MongoDB,false,Banco de dados NoSQL orientado a documentos.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/mongo.svg
-16,GraphQL,false,Linguagem de consulta para APIs que permite obter apenas os dados necessários.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/graphql.svg
-17,Docker,false,"Plataforma para criação, execução e gerenciamento de containers.",https://github.com/portfolio-projetos-dev/assets/raw/main/images/docker.svg
-18,Kubernetes,false,"Sistema para automação da implantação, escalonamento e operações de containers.",https://github.com/portfolio-projetos-dev/assets/raw/main/images/kubernetes.svg
-19,Terraform,false,Ferramenta de infraestrutura como código para gerenciamento de recursos na nuvem.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/terraform.svg
-20,Firebase,false,Plataforma de desenvolvimento de aplicativos móveis e web da Google.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/firebase.svg
-21,React Native,false,Biblioteca para desenvolvimento de aplicativos móveis com React.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/react.svg
-22,Next.js,false,Framework React para construção de aplicações web.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/next.svg
-23,Prisma,false,ORM para Node.js e TypeScript com suporte a diversos bancos de dados.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/prisma.svg
-24,Supabase,false,Plataforma open-source para desenvolvimento de aplicativos web e APIs.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/supabase.svg
-25,Tailwind CSS,false,Framework CSS para construção de interfaces de usuário.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/tailwind.svg
-26,Flutter,true,Framework para desenvolvimento de aplicativos móveis nativos.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/flutter.svg
-27,PHP,false,Linguagem de programação de uso geral.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/php.svg
-28,ChatGPT,false,API de conversação baseada em GPT-3.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/openai.svg
-29,Dart,false,Linguagem de programação para desenvolvimento de aplicativos móveis com Flutter.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/dart.svg
+1,HTML,false,Linguagem de marcação para estruturação de páginas web.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg
+2,CSS,false,Linguagem de estilos para definição do design e layout das páginas web.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg
+3,JavaScript,false,Linguagem de programação para interatividade em páginas web.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg
+4,TypeScript,true,Superset do JavaScript que adiciona tipagem estática.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg
+5,Node.js,false,Ambiente de execução JavaScript no lado do servidor.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg
+6,Java,false,Linguagem de programação orientada a objetos.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg
+7,Python,false,Linguagem de programação interpretada de alto nível.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg
+8,NestJS,true,Framework para construção de aplicações back-end em Node.js.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-plain.svg
+9,Express.js,false,Framework web minimalista para Node.js.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg
+10,React,true,Biblioteca JavaScript para construção de interfaces de usuário.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg
+11,Vue.js,false,Framework progressivo para construção de interfaces de usuário.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg
+12,Angular,false,Framework front-end desenvolvido pelo Google.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg
+13,Svelte,false,Framework para construção de interfaces reativas.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg
+14,PostgreSQL,false,Sistema de gerenciamento de banco de dados relacional avançado.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg
+15,MongoDB,false,Banco de dados NoSQL orientado a documentos.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg
+16,GraphQL,false,Linguagem de consulta para APIs que permite obter apenas os dados necessários.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg
+17,Docker,false,"Plataforma para criação, execução e gerenciamento de containers.",https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg
+18,Kubernetes,false,"Sistema para automação da implantação, escalonamento e operações de containers.",https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-plain.svg
+19,Terraform,false,Ferramenta de infraestrutura como código para gerenciamento de recursos na nuvem.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg
+20,Firebase,false,Plataforma de desenvolvimento de aplicativos móveis e web da Google.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain.svg
+21,React Native,false,Biblioteca para desenvolvimento de aplicativos móveis com React.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg
+22,Next.js,false,Framework React para construção de aplicações web.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg
+23,Prisma,false,ORM para Node.js e TypeScript com suporte a diversos bancos de dados.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg
+24,Supabase,false,Plataforma open-source para desenvolvimento de aplicativos web e APIs.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg
+25,Tailwind CSS,false,Framework CSS para construção de interfaces de usuário.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-plain.svg
+26,Flutter,false,Framework para desenvolvimento de aplicativos móveis nativos.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg
+27,PHP,false,Linguagem de programação de uso geral.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg
+28,ChatGPT,false,API de conversação baseada em GPT-3.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/openai/openai-original.svg
+29,Dart,false,Linguagem de programação para desenvolvimento de aplicativos móveis com Flutter.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-plain.svg
+30,Clojure,true,Linguagem de programação funcional para JVM com ênfase em estruturas de dados imutáveis.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/clojure/clojure-original.svg
+31,ClojureScript,true,Compilador Clojure que tem como alvo JavaScript para desenvolvimento web.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/clojurescript/clojurescript-original.svg
+32,Go,true,Linguagem de programação de sistemas de alto desempenho com suporte nativo a concorrência.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg
+33,Julia,true,Linguagem de programação de alto nível para análise numérica e computação científica.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/julia/julia-original.svg
+34,Kafka,true,Plataforma distribuída de streaming para construção de pipelines de dados em tempo real.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kafka/kafka-original.svg
+35,Prometheus,false,Kit de ferramentas de monitoramento e alertas para aplicações cloud-native.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prometheus/prometheus-original.svg
+36,Grafana,false,Plataforma de análise e visualização interativa.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grafana/grafana-original.svg
+37,gRPC,true,Framework RPC de alto desempenho para comunicação entre serviços.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grpc/grpc-original.svg
+38,Cadence,false,Plataforma de orquestração distribuída para construção de aplicações escaláveis.,https://cadenceworkflow.io/img/cadence-logo.svg
+39,Babashka,false,Clojure de inicialização rápida para scripts shell.,https://raw.githubusercontent.com/babashka/babashka/master/logo/babashka.svg
+40,ClojureDart,true,Compilador Clojure com alvo em Dart para desenvolvimento mobile.,https://raw.githubusercontent.com/Tensegritics/ClojureDart/refs/heads/main/logo1024.png
+41,APIs REST,false,Estilo arquitetural para sistemas distribuídos e serviços web.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rest/rest-original.svg
+42,Docker Compose,false,Ferramenta para definição e execução de aplicações Docker multi-container.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg
+43,Kubernetes,true,Plataforma de orquestração de containers para automatizar implantação e escala.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg
+44,RedPanda,false,Plataforma moderna de streaming compatível com protocolo Kafka.,https://cdn.prod.website-files.com/6632a83042773c5a1a5f4443/67338106745666127d2992c3_redpanda-vs-kafka.svg
+45,CLI,false,Desenvolvimento de Interface de Linha de Comando para automação de sistemas.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg
+46,JVM,false,Ambiente de execução da Máquina Virtual Java.,https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Duke_%28Java_mascot%29_waving.svg/800px-Duke_%28Java_mascot%29_waving.svg.png
+47,Linux,true,Sistema operacional e ambiente de desenvolvimento open-source.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg
+48,Postman,false,Plataforma de desenvolvimento e teste de APIs.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg
+49,Swagger,false,Ferramentas para documentação e design de APIs.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg

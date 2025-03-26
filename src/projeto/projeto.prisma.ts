@@ -6,24 +6,62 @@ import { PrismaProvider } from 'src/db/prisma.provider';
 export class ProjetoProvider {
   constructor(private readonly prisma: PrismaProvider) {}
 
-  async findAll(): Promise<Projeto[]> {
+  async findAll(locale: string = 'pt-BR'): Promise<Projeto[]> {
     const projetos = await this.prisma.projeto.findMany({
       include: {
-        tecnologias: true
-      }
+        tecnologias: {
+          include: {
+            translations: {
+              where: {
+                locale: locale,
+              },
+            },
+          },
+        },
+        translations: {
+          where: {
+            locale: locale,
+          },
+        },
+      },
     });
 
-    return projetos.map(projeto => ({
+    return projetos.map((projeto) => ({
       ...projeto,
+      nome: projeto.translations[0]?.nome ?? projeto.nome,
+      descricao: projeto.translations[0]?.descricao ?? projeto.descricao,
       nivel: Object.values(Nivel)[projeto.nivel] as Nivel,
-      tipo: projeto.tipo as Tipo
+      tipo: projeto.tipo as Tipo,
+      tecnologias: projeto.tecnologias.map((tech) => ({
+        ...tech,
+        nome: tech.translations[0]?.nome ?? tech.nome,
+        descricao: tech.translations[0]?.descricao ?? tech.descricao,
+      })),
     }));
   }
 
-  async findById(id: number): Promise<Projeto | null> {
+  async findById(
+    id: number,
+    locale: string = 'pt-BR',
+  ): Promise<Projeto | null> {
     const projeto = await this.prisma.projeto.findUnique({
       where: { id },
-      include: { tecnologias: true }
+      include: {
+        tecnologias: {
+          include: {
+            translations: {
+              where: {
+                locale: locale,
+              },
+            },
+          },
+        },
+        translations: {
+          where: {
+            locale: locale,
+          },
+        },
+      },
     });
 
     if (!projeto) {
@@ -32,8 +70,15 @@ export class ProjetoProvider {
 
     return {
       ...projeto,
+      nome: projeto.translations[0]?.nome ?? projeto.nome,
+      descricao: projeto.translations[0]?.descricao ?? projeto.descricao,
       nivel: Object.values(Nivel)[projeto.nivel] as Nivel,
-      tipo: projeto.tipo as Tipo
+      tipo: projeto.tipo as Tipo,
+      tecnologias: projeto.tecnologias.map((tech) => ({
+        ...tech,
+        nome: tech.translations[0]?.nome ?? tech.nome,
+        descricao: tech.translations[0]?.descricao ?? tech.descricao,
+      })),
     };
   }
 }

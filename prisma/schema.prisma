@@ -21,6 +21,7 @@ model Tecnologia {
   imagem String
   destaque Boolean @default(false)
   projetos Projeto[]
+  translations TecnologiaTranslation[]
 
   @@map("tecnologias")
 }
@@ -35,6 +36,31 @@ model Projeto {
   destaque Boolean @default(false)
   repositorio String
   tecnologias Tecnologia[]
+  translations ProjetoTranslation[]
 
   @@map("projetos")
+}
+
+model ProjetoTranslation {
+  id Int @id @default(autoincrement())
+  projeto Projeto @relation(fields: [projetoId], references: [id], onDelete: Cascade)
+  projetoId Int
+  locale String
+  nome String
+  descricao String
+
+  @@unique([projetoId, locale])
+  @@map("projeto_translations")
+}
+
+model TecnologiaTranslation {
+  id Int @id @default(autoincrement())
+  tecnologia Tecnologia @relation(fields: [tecnologiaId], references: [id], onDelete: Cascade)
+  tecnologiaId Int
+  locale String
+  nome String
+  descricao String
+
+  @@unique([tecnologiaId, locale])
+  @@map("tecnologia_translations")
 }

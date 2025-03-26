@@ -1,50 +1,50 @@
 id,nome,destaque,descricao,imagem
-1,HTML,false,Markup language for web page structuring.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/html.svg
-2,CSS,false,Style language for defining web page design and layout.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/css.svg
-3,JavaScript,false,Programming language for web page interactivity.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/javascript.svg
-4,TypeScript,true,JavaScript superset that adds static typing.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/typescript.svg
-5,Node.js,true,JavaScript runtime environment for server-side development.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/node.svg
-6,Java,true,Object-oriented programming language.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/java.svg
-7,Python,true,High-level interpreted programming language.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/python.svg
-8,NestJS,true,Framework for building back-end applications in Node.js.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/nest.svg
-9,Express.js,false,Minimalist web framework for Node.js.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/express.svg
-10,React,true,JavaScript library for building user interfaces.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/react.svg
-11,Vue.js,false,Progressive framework for building user interfaces.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/vue.svg
-12,Angular,false,Front-end framework developed by Google.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/angular.svg
-13,Svelte,false,Framework for building reactive interfaces.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/svelte.svg
-14,PostgreSQL,false,Advanced relational database management system.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/postgresql.svg
-15,MongoDB,false,Document-oriented NoSQL database.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/mongo.svg
-16,GraphQL,false,Query language for APIs that allows retrieving only necessary data.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/graphql.svg
-17,Docker,false,"Platform for creating, running and managing containers.",https://github.com/portfolio-projetos-dev/assets/raw/main/images/docker.svg
-18,Kubernetes,false,"System for automating deployment, scaling and container operations.",https://github.com/portfolio-projetos-dev/assets/raw/main/images/kubernetes.svg
-19,Terraform,false,Infrastructure as code tool for cloud resource management.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/terraform.svg
-20,Firebase,false,Google's mobile and web application development platform.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/firebase.svg
-21,React Native,false,Library for developing mobile applications with React.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/react.svg
-22,Next.js,false,React framework for building web applications.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/next.svg
-23,Prisma,false,ORM for Node.js and TypeScript with support for various databases.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/prisma.svg
-24,Supabase,false,Open-source platform for developing web applications and APIs.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/supabase.svg
-25,Tailwind CSS,false,CSS framework for building user interfaces.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/tailwind.svg
-26,Flutter,true,Framework for developing native mobile applications.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/flutter.svg
-27,PHP,false,General-purpose programming language.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/php.svg
-28,ChatGPT,false,Conversation API based on GPT-3.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/openai.svg
-29,Dart,false,Programming language for mobile application development with Flutter.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/dart.svg
-30,Clojure,true,Functional programming language for the JVM with emphasis on immutable data structures.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/clojure.svg
-31,ClojureScript,true,Clojure compiler that targets JavaScript for web development.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/clojurescript.svg
-32,Go,true,High-performance systems programming language with built-in concurrency support.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/go.svg
-33,Julia,true,High-level programming language for numerical analysis and computational science.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/julia.svg
-34,Kafka,true,Distributed streaming platform for building real-time data pipelines.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/kafka.svg
-35,Prometheus,false,Monitoring and alerting toolkit for cloud-native applications.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/prometheus.svg
-36,Grafana,false,Analytics and interactive visualization platform.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/grafana.svg
-37,gRPC,true,High-performance RPC framework for service communication.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/grpc.svg
-38,Cadence,false,Distributed orchestration platform for building scalable applications.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/cadence.svg
-39,Babashka,false,Fast-starting Clojure for shell scripting.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/babashka.svg
-40,ClojureDart,true,Clojure compiler targeting Dart for mobile development.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/clojuredart.svg
-41,REST APIs,false,Architectural style for distributed systems and web services.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/rest.svg
-42,Docker Compose,false,Tool for defining and running multi-container Docker applications.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/docker-compose.svg
-43,Kubernetes,true,Container orchestration platform for automating deployment and scaling.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/kubernetes.svg
-44,RedPanda,false,Modern streaming platform compatible with Kafka protocol.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/redpanda.svg
-45,CLI,false,Command Line Interface development for system automation.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/cli.svg
-46,JVM,false,Java Virtual Machine runtime environment.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/jvm.svg
-47,Linux,true,Open-source operating system and development environment.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/linux.svg
-48,Postman,false,API development and testing platform.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/postman.svg
-49,Swagger,false,API documentation and design tools.,https://github.com/portfolio-projetos-dev/assets/raw/main/images/swagger.svg
+1,HTML,false,Markup language for web page structuring.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg
+2,CSS,false,Style language for defining web page design and layout.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg
+3,JavaScript,false,Programming language for web page interactivity.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg
+4,TypeScript,true,JavaScript superset that adds static typing.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg
+5,Node.js,false,JavaScript runtime environment for server-side development.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg
+6,Java,false,Object-oriented programming language.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg
+7,Python,false,High-level interpreted programming language.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg
+8,NestJS,true,Framework for building back-end applications in Node.js.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-plain.svg
+9,Express.js,false,Minimalist web framework for Node.js.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg
+10,React,true,JavaScript library for building user interfaces.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg
+11,Vue.js,false,Progressive framework for building user interfaces.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg
+12,Angular,false,Front-end framework developed by Google.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg
+13,Svelte,false,Framework for building reactive interfaces.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg
+14,PostgreSQL,false,Advanced relational database management system.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg
+15,MongoDB,false,Document-oriented NoSQL database.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg
+16,GraphQL,false,Query language for APIs that allows retrieving only necessary data.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg
+17,Docker,false,"Platform for creating, running and managing containers.",https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg
+18,Kubernetes,false,"System for automating deployment, scaling and container operations.",https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-plain.svg
+19,Terraform,false,Infrastructure as code tool for cloud resource management.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg
+20,Firebase,false,Google's mobile and web application development platform.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain.svg
+21,React Native,false,Library for developing mobile applications with React.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg
+22,Next.js,false,React framework for building web applications.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg
+23,Prisma,false,ORM for Node.js and TypeScript with support for various databases.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg
+24,Supabase,false,Open-source platform for developing web applications and APIs.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg
+25,Tailwind CSS,false,CSS framework for building user interfaces.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-plain.svg
+26,Flutter,true,Framework for developing native mobile applications.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg
+27,PHP,false,General-purpose programming language.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg
+28,ChatGPT,false,Conversation API based on GPT-3.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/openai/openai-original.svg
+29,Dart,false,Programming language for mobile application development with Flutter.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-plain.svg
+30,Clojure,true,Functional programming language for the JVM with emphasis on immutable data structures.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/clojure/clojure-original.svg
+31,ClojureScript,true,Clojure compiler that targets JavaScript for web development.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/clojurescript/clojurescript-original.svg
+32,Go,true,High-performance systems programming language with built-in concurrency support.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg
+33,Julia,true,High-level programming language for numerical analysis and computational science.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/julia/julia-original.svg
+34,Kafka,true,Distributed streaming platform for building real-time data pipelines.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kafka/kafka-original.svg
+35,Prometheus,false,Monitoring and alerting toolkit for cloud-native applications.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prometheus/prometheus-original.svg
+36,Grafana,false,Analytics and interactive visualization platform.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grafana/grafana-original.svg
+37,gRPC,true,High-performance RPC framework for service communication.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grpc/grpc-original.svg
+38,Cadence,false,Distributed orchestration platform for building scalable applications.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cadence/cadence-original.svg
+39,Babashka,false,Fast-starting Clojure for shell scripting.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/babashka/babashka-original.svg
+40,ClojureDart,true,Clojure compiler targeting Dart for mobile development.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/clojuredart/clojuredart-original.svg
+41,REST APIs,false,Architectural style for distributed systems and web services.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rest/rest-original.svg
+42,Docker Compose,false,Tool for defining and running multi-container Docker applications.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker-compose/docker-compose-original.svg
+43,Kubernetes,true,Container orchestration platform for automating deployment and scaling.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-plain.svg
+44,RedPanda,false,Modern streaming platform compatible with Kafka protocol.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redpanda/redpanda-original.svg
+45,CLI,false,Command Line Interface development for system automation.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cli/cli-original.svg
+46,JVM,false,Java Virtual Machine runtime environment.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jvm/jvm-original.svg
+47,Linux,true,Open-source operating system and development environment.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg
+48,Postman,false,API development and testing platform.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg
+49,Swagger,false,API documentation and design tools.,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg

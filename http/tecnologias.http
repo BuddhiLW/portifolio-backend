@@ -1,6 +1,11 @@
-GET http://localhost:3000/tecnologias
+### Get all technologies in Portuguese (default)
+GET http://localhost:4000/tecnologias
 
-###
+### Get all technologies in English
+GET http://localhost:4000/tecnologias?locale=en
 
-GET http://localhost:3000/tecnologias/destaques
+### Get featured technologies in Portuguese (default)
+GET http://localhost:4000/tecnologias/destaques
 
+### Get featured technologies in English
+GET http://localhost:4000/tecnologias/destaques?locale=en
